@@ -11,10 +11,8 @@
     $map: $theme,
     $key: background,
   );
-}
 
-// .secondary-box {
-//   width: 100px;
-//   height: 100px;
-//   color: red;
-// }
+  .box {
+    background-color: $background;
+  }
+}
