@@ -1,0 +1,23 @@
+@mixin box-theme($theme) {
+  $primary: map-get(
+    $map: $theme,
+    $key: primary,
+  );
+  $warn: map-get(
+    $map: $theme,
+    $key: warn,
+  );
+  $background: map-get(
+    $map: $theme,
+    $key: background,
+  );
+
+  .box {
+  }
+}
+
+// .secondary-box {
+//   width: 100px;
+//   height: 100px;
+//   color: red;
+// }
